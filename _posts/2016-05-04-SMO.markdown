@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "SMO"
+date:   2016-05-04 19:06:13 +0800
+categories: jekyll update
+---
+
+Here are some useful resources for implementing your own SMO.
+
+[The original SMO paper][smo-book]
+
+[A simplified version][smo-stanford]
+
+
+Here is my own [implementation][codes-smo] in python.
+
+I am not sure if my implementation is totally correct.
+But I have tested it on some cases and it works fine.
+The codes are arranged following the pseudo-codes provided by the original SMO paper.
+
+[smo-book]: {{ site.url }}/download/smo-book.pdf
+[smo-stanford]: {{ site.url }}/download/smo.pdf
+[codes-smo]: https://github.com/cyj907/SMO
