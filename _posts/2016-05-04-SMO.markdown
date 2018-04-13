@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "SMO"
+title:  "[Code] SMO"
 date:   2016-05-04 19:06:13 +0800
-categories: jekyll update
+categories: code
 ---
 
 Here are some useful resources for implementing your own SMO.
