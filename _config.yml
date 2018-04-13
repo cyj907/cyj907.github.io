@@ -16,4 +16,4 @@ twitter_username: cyj907
 github_username:  cyj907
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
