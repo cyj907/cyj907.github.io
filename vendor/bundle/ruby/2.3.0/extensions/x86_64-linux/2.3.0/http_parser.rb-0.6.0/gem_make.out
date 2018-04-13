@@ -1,5 +1,16 @@
-current directory: /home/chenyajing/cyj907.github.io/vendor/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
-/usr/bin/ruby2.3 -r ./siteconf20180413-12337-fu7k03.rb extconf.rb
-mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+current directory: /home/chenyajing/cyj907.github.io/vector/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby2.3 -r ./siteconf20180413-16229-ijg0np.rb extconf.rb
+creating Makefile
 
-extconf failed, exit code 1
+current directory: /home/chenyajing/cyj907.github.io/vector/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /home/chenyajing/cyj907.github.io/vector/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/chenyajing/cyj907.github.io/vector/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20180413-16229-swv65k
