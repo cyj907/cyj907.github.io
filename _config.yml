@@ -16,12 +16,15 @@ twitter_username: cyj907
 github_username:  cyj907
 
 # Build settings
-markdown: redcarpet
-remote_theme: chesterhow/tale
-permalink: /:year-:month-:day/:title
-paginate: 10
+markdown: kramdown
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 plugins:
   - jekyll-paginate
-  - jekyll-remote-theme
+
+permalink: /:year-:month-:day/:title
+paginate: 5
 
