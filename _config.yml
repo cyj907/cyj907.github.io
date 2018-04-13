@@ -17,6 +17,11 @@ github_username:  cyj907
 
 # Build settings
 markdown: redcarpet
-theme: tale
+remote_theme: chesterhow/tale
 permalink: /:year-:month-:day/:title
 paginate: 10
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+
