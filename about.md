@@ -1,8 +1,9 @@
 ---
 layout: post
 title: About
+author: "Yajing Chen"
 permalink: /about/
 ---
 
-Hello. No time to write anything down here.
 
+A techie and researcher
