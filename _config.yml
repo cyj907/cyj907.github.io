@@ -17,3 +17,6 @@ github_username:  cyj907
 
 # Build settings
 markdown: redcarpet
+theme: tale
+permalink: /:year-:month-:day/:title
+paginate: 10
