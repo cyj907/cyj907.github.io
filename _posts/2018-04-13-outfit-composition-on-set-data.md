@@ -5,10 +5,10 @@ categories: read
 date: 2018-04-13 09:47:00 --0800
 ---
 
-- [] problem formulation
-- [] algorithm
-- [] comparison study
-- [] evaluation
+- [ ] problem formulation
+- [ ] algorithm
+- [ ] comparison study
+- [ ] evaluation
 
 A brief introduction:
 
