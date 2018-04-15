@@ -6,7 +6,7 @@ date: 2018-04-13 09:47:00 --0800
 ---
 
 [x] problem formulation 
-[ ] algorithm 
+[x] algorithm 
 [ ] comparison study 
 [ ] evaluation 
 
@@ -30,3 +30,28 @@ The data used in the algorithm was downloaded from __polyvore.com__. But this we
 
 Network structure of the proposed model is shown below:
 ![network](../assets/posts/2018-04-13/network.png)
+
+The proposed model first used a simplified AlexNet to extract features from images for each item in an outfit.
+Then, it combines multiple features into one feature to represent the outfit, and predicts its quality score
+according to its popularity. Two points lie in the proposed model:
+- Feature combination approach
+- Quality evaluation approach
+We are going to introduce them briefly in the following.
+
+## Feature combination
+As the number of items in an outfit is various, it is important to find a way to combine features.
+After obtaining image features for items, the paper tried three different approaches to combine them.
+- Elementwise average pooling
+- Elementwise max pooling
+- Recurrent neural net
+Experiments show that elementwise average pooling achieved the best results.
+
+
+## Quality evaluation
+What is a good outfit? It is not an easy question to answer. But we might be able to obtain some related
+information by using user data. The proposed model views outfits with many likes as popular outfits, and those
+with few likes as unpopular outfits. The quality evaluation problem thus becomes a 0-1 classification problem.
+
+
+# Comparison study
+
