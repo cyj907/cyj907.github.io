@@ -54,4 +54,7 @@ with few likes as unpopular outfits. The quality evaluation problem thus becomes
 
 
 # Comparison study
-
+<div>
+  <img src="../assets/posts/2018-04-13/algo0.png">
+  <img src="../assets/posts/2018-04-13/algo1.png">
+</div>
