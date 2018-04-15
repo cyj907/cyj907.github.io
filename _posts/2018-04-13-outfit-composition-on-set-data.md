@@ -31,6 +31,10 @@ The data used in the algorithm was downloaded from __polyvore.com__. But this we
 Network structure of the proposed model is shown below:
 ![network](../assets/posts/2018-04-13/network.png)
 
+<div>
+  <img src="../assets/posts/2018-04-13/algo0.png" width=50%>
+  <img src="../assets/posts/2018-04-13/algo1.png" width=50%>
+</div>
 The proposed model first used a simplified AlexNet to extract features from images for each item in an outfit.
 Then, it combines multiple features into one feature to represent the outfit, and predicts its quality score
 according to its popularity. Two points lie in the proposed model:
@@ -54,7 +58,16 @@ with few likes as unpopular outfits. The quality evaluation problem thus becomes
 
 
 # Comparison study
-<div>
-  <img src="../assets/posts/2018-04-13/algo0.png">
-  <img src="../assets/posts/2018-04-13/algo1.png">
-</div>
+The paper proposes an evaluation approach to assess the performance of different models.
+The approach is somewhat similar to a __fill in the blank__ test. All items except one are used as seed items
+in the question. The remaining one item together with multiple randomly picked items form an answer set.
+All models are required to select an answer to the outfit composition question. And the AUC and AP are calculated.
+
+- Evaluation on different pooling methods
+<img src="../assets/posts/2018-04-13/pool.png">
+- Evaluation on different modalities
+<img src="../assets/posts/2018-04-13/model.png">
+- Evaluation on convergence time
+<img src="../assets/posts/2018-04-13/iter.png">
+- Evaluation on dimension of item features
+<img src="../assets/posts/2018-04-13/dim.png">
