@@ -5,10 +5,10 @@ categories: read
 date: 2018-04-13 09:47:00 --0800
 ---
 
-[x] problem formulation
-[ ] algorithm
-[ ] comparison study
-[ ] evaluation
+[x] problem formulation 
+[ ] algorithm 
+[ ] comparison study 
+[ ] evaluation 
 
 A brief introduction:
 
@@ -22,4 +22,11 @@ It would be convenient if a machine can help you make a stylish outfit compositi
 This work was proposed to tackle the problem.
 
 # Algorithm
+Treating an outfit as a set, the proposed model applies a scoring mechanism to evaluate the popularity
+of different outfits. It utilized multiple modalities of data, including images, titles and categories.
+Data of different modalities can provide information of various dimensions to the model.
 
+The data used in the algorithm was downloaded from __polyvore.com__. But this website has been closed permanently.
+
+Network structure of the proposed model is shown below:
+![network](../assets/posts/2018-04-13/network.png)
