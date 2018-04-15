@@ -32,8 +32,8 @@ Network structure of the proposed model is shown below:
 ![network](../assets/posts/2018-04-13/network.png)
 
 <div>
-  <img src="../assets/posts/2018-04-13/algo0.png" width=50%>
-  <img src="../assets/posts/2018-04-13/algo1.png" width=50%>
+  <img src="../assets/posts/2018-04-13/algo0.png" style="width=50%">
+  <img src="../assets/posts/2018-04-13/algo1.png" style="width=50%">
 </div>
 The proposed model first used a simplified AlexNet to extract features from images for each item in an outfit.
 Then, it combines multiple features into one feature to represent the outfit, and predicts its quality score
@@ -66,7 +66,7 @@ All models are required to select an answer to the outfit composition question. 
 - Evaluation on different pooling methods
 <img src="../assets/posts/2018-04-13/pool.png">
 - Evaluation on different modalities
-<img src="../assets/posts/2018-04-13/model.png">
+<img src="../assets/posts/2018-04-13/modal.png">
 - Evaluation on convergence time
 <img src="../assets/posts/2018-04-13/iter.png">
 - Evaluation on dimension of item features
