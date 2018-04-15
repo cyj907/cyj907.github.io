@@ -5,11 +5,6 @@ categories: read
 date: 2018-04-13 09:47:00 --0800
 ---
 
-[x] problem formulation 
-[x] algorithm 
-[ ] comparison study 
-[ ] evaluation 
-
 A brief introduction:
 
 > This work proposed a model for undertaking the outfit composition task.
