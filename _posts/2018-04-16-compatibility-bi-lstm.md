@@ -39,4 +39,11 @@ The work mentioned by previous post. Actually I don't think the comparison is fa
 the pooling method that achieves best performance is average pooling. But in this paper, they use RNN pooling.
 
 ## Tests for evaluation
+- Fill-in-the-blank recommendation
 
+Outfits in the test set were selected as the questions. One item for each outfit is taken out as one of the answer choice, and the remaining items become seed items.
+Three other randomly chosen items were added as confusion choice. The evaluation criteria are the prediction accuracy.
+> This test is similar to the one proposed in __SetRNN__. But I think it is not as reasonable as the previous one. Because the randomly picked items can be a match
+for the seed items, although they never appeared in the same outfit in the dataset. But indeed, it is not economic to always hire some fashion experts to curate the test dataset, so the test used in this very work is acceptable.
+
+- Compatibility test
