@@ -46,4 +46,11 @@ Three other randomly chosen items were added as confusion choice. The evaluation
 > This test is similar to the one proposed in __SetRNN__. But I think it is not as reasonable as the previous one. Because the randomly picked items can be a match
 for the seed items, although they never appeared in the same outfit in the dataset. But indeed, it is not economic to always hire some fashion experts to curate the test dataset, so the test used in this very work is acceptable.
 
+
 - Compatibility test
+
+Real outfits and fake outfits consisting of randomly chosen items are selected half-half as the test set. All models are required to distinguish between good and bad outfits. The evaluation criteria are prediction accuracy and AUC.
+> I don't think this test is fair for __SetRNN__ either. Because negative outfits selected might not be counted as an outfit. The training data pair for __SetRNN__ are popular outfits and unpopular outfits. So, the model might learn to tell good outfits from bad ones, but not outfits from non-outfits.
+
+## Results
+Below are the results for the above two tests.
