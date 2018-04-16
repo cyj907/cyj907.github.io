@@ -17,6 +17,8 @@ A brief introduction:
 See the introduction above
 
 # Algorithm
+
+<img src="../assets/posts/2018-04-16/bilstm.png">
 The proposed work assumes an outfit as a sequence of items and models the cooccurrence of different items in an outfit using a Bi-LSTM.
 They also adopts multi-modal data, including images and texts to build the model. The outfit item sequences are of top-to-bottom-to-accessory order.
 Two key points lie in their algorithm:
@@ -54,3 +56,8 @@ Real outfits and fake outfits consisting of randomly chosen items are selected h
 
 ## Results
 Below are the results for the above two tests.
+<img src="../assets/posts/2018-04-16/table.png">
+
+We can see that __Bi-LSTM__ greatly outperforms __SiameseNet__ and __SetRNN__ in __fill-in-the-blank__ test. For __compatibility test__, both __SiameseNet__ and __Bi-LSTM__ greatly outperforms __SetRNN__. __Bi-LSTM__ outperforms __SiameseNet__ by about 4% (85% vs 89%). Here, I want to explain the results from my perspective.
+
+>
